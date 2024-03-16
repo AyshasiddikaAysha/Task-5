@@ -28,3 +28,11 @@ print("Count of 'E':", count_e)
 print("Count of 'I':", count_i)
 print("Count of 'O':", count_o)
 print("Count of 'U':", count_u)
+def count_words(input_string):
+    words = input_string.split()
+    
+    return len(words)
+
+input_string = "This is a sample sentence."
+word_count = count_words(input_string)
+print("Number of words:", word_count)
